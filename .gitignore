@@ -1,0 +1,46 @@
+# Visual Studio cache/build folders
+.vs/
+.claude/
+Debug/
+Release/
+x64/
+Win32/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.db
+*.opendb
+*.ipch
+
+# Build outputs
+*.dll
+*.lib
+*.exp
+*.obj
+*.pdb
+*.ilk
+*.iobj
+*.ipdb
+*.idb
+*.log
+*.tlog
+
+# Exception: Keep libsodium static libraries
+!libsodium/**/*.lib
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Development documentation (local only)
+AGENTS.md
+AGENTS.md.local
+
+# Keep libsodium
+!libsodium/
+
+# Keep launch.vs.json for debugging
+!.vs/launch.vs.json
